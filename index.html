@@ -220,18 +220,20 @@
     <!-- English -->
     <div id="lang-en" class="lang-block active">
 
-        <p class="last-updated">Last updated: March 2026</p>
+        <p class="last-updated">Last updated: March 24, 2026</p>
 
         <div class="section">
             <h2><span class="icon">&#128274;</span> Privacy Policy</h2>
-            <p>Mustard Seed Chinese ("the App") is developed by Leo Song. This privacy policy describes how we collect, use, and protect your information. We are committed to safeguarding the privacy of all users, including children.</p>
+            <p>Mustard Seed Chinese ("the App") is developed by Spiritual Growth Garden. This privacy policy describes how we collect, use, and protect your information. We are committed to safeguarding the privacy of all users, including children.</p>
         </div>
 
         <div class="section">
             <h2><span class="icon">&#128100;</span> Information We Collect</h2>
-            <p><strong>Account Information:</strong> When you sign in with Apple, we receive a unique User ID and, optionally, your email address (used only for account recovery). We do not receive your name or other personal details unless you choose to share them.</p>
-            <p><strong>Learning Progress:</strong> Lesson completion, quiz scores, Bible highlights, notes, and check-in streaks are stored to track your child's learning journey.</p>
-            <p><strong>Preferences:</strong> App settings such as language preference, font size, and notification choices.</p>
+            <p><strong>Account Information (optional):</strong> When you sign in with Apple, we store the anonymous user identifier provided by Apple to link your learning data and family membership. We may also receive your display name and email address if you choose to share them. We never access your Apple ID password.</p>
+            <p><strong>Learning Progress:</strong> Lesson completion, quiz scores, Bible highlights, notes, check-in streaks, and daily character practice records.</p>
+            <p><strong>Child Profiles:</strong> First name and avatar emoji chosen by the parent for each child profile. Each child's progress is stored separately.</p>
+            <p><strong>Family Sharing:</strong> If you create or join a family household, your display name and household membership are stored on the server and visible to other household members.</p>
+            <p><strong>Preferences:</strong> App settings such as language preference and notification choices.</p>
         </div>
 
         <div class="section">
@@ -241,14 +243,32 @@
 
         <div class="section">
             <h2><span class="icon">&#9729;&#65039;</span> Backend Sync</h2>
-            <p>When backend mode is on (the default), progress, Bible highlights, and notes sync securely to our servers for multi-device access. All data is transmitted via encrypted HTTPS using a union-merge strategy so no data is ever lost. You can turn this off anytime in Settings.</p>
-            <p class="benefit">&#10003; Only progress, highlights, notes, and check-in data is synced &mdash; never voice data</p>
+            <p>When backend mode is on (the default), progress, Bible highlights, notes, and family sharing data sync securely to our servers for multi-device access. All data is transmitted via encrypted HTTPS using a union-merge strategy so no data is ever lost. You can turn this off anytime in Settings.</p>
+            <p class="benefit">&#10003; Only progress, highlights, notes, check-in data, and family membership (including display name) is synced &mdash; never voice data</p>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">&#63743;</span> Apple Sign-In</h2>
+            <p>When using Sign in with Apple, we store the anonymous user identifier provided by Apple to link your learning data and family membership. After joining a family, your display name will be visible to other household members. We never access your Apple ID password. Apple Sign-In is entirely optional &mdash; the app works fully in "Device Only" mode without any login.</p>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">&#127968;</span> Family Sharing</h2>
+            <p>The optional Family Sharing feature allows multiple devices to share child profiles and learning progress within a household. To use this feature:</p>
+            <ul>
+                <li>A parent creates a household and generates a 6-digit invite code (expires in 60 seconds).</li>
+                <li>Another parent enters the code to request joining; the household owner must approve.</li>
+                <li>Once joined, child profiles and learning progress sync across all household devices.</li>
+                <li>The household owner can remove members at any time. Removed members are notified and retain their own children's data.</li>
+                <li>Leaving a household removes your membership data from the server.</li>
+            </ul>
+            <p>All family management is accessible only through Parental Controls (behind a two-step verification gate).</p>
         </div>
 
         <div class="section">
             <h2><span class="icon">&#127908;</span> Microphone &amp; Speech Recognition</h2>
-            <p>Read-along and memorization features use on-device speech recognition (Apple Speech Framework) to evaluate pronunciation. All voice processing happens entirely on the device. In rare cases where on-device recognition is unavailable, Apple's server-based speech recognition service may be used as a fallback; in that case, audio is sent to Apple for processing under Apple's own privacy policy.</p>
-            <p class="benefit">&#10003; Voice data stays on your device whenever possible; fallback uses Apple's service only</p>
+            <p>Read-along and memorization features use Apple Speech Framework to evaluate pronunciation. Voice data is processed entirely on your device and is never sent to our servers. When the device does not support local recognition, Apple's own speech recognition service is used as a fallback (covered by Apple's privacy policy).</p>
+            <p class="benefit">&#10003; Voice data is never sent to our servers &mdash; processed on-device or via Apple's service only</p>
         </div>
 
         <div class="section">
@@ -258,25 +278,28 @@
 
         <div class="section">
             <h2><span class="icon">&#128065;&#8205;&#128488;</span> No Tracking, No Ads</h2>
-            <p>We use no third-party trackers, collect no analytics, and show no ads. This app is designed for learning, not data collection.</p>
+            <p>We use no third-party trackers, collect no analytics, and show no ads. The app contains no third-party SDKs &mdash; only Apple first-party frameworks. This app is designed for learning, not data collection.</p>
         </div>
 
         <div class="section">
             <h2><span class="icon">&#128118;</span> Children's Privacy (COPPA Compliance)</h2>
-            <p>Mustard Seed Chinese is designed for use by children. We take children's privacy seriously:</p>
+            <p>Mustard Seed Chinese is designed for use by children and intended for the Kids Category on the App Store. We take children's privacy seriously:</p>
             <ul>
                 <li>We do not track children's activity across apps or websites.</li>
                 <li>We do not show advertisements of any kind.</li>
                 <li>We do not share any data with third parties.</li>
+                <li>We do not use any third-party analytics or advertising SDKs.</li>
                 <li>We do not collect more information than is necessary for the app to function.</li>
-                <li>Voice recordings are processed on the device whenever possible. If on-device recognition is unavailable, Apple's speech recognition service is used as a fallback; no voice data is sent to our servers or any third party other than Apple.</li>
+                <li>Voice recordings are processed on the device. No voice data is sent to our servers.</li>
+                <li>External links and account management are only accessible behind a parental verification gate.</li>
                 <li>Parents can review and delete all data at any time through Parental Controls.</li>
             </ul>
         </div>
 
         <div class="section">
             <h2><span class="icon">&#128465;</span> Data Deletion</h2>
-            <p>You can delete all server data anytime through Parental Controls inside the app. Local data can be cleared by deleting the app from your device. If you need help, contact us at <a href="mailto:spiritualgrowthgarden@gmail.com" style="color:var(--sage);font-weight:600;">spiritualgrowthgarden@gmail.com</a>.</p>
+            <p>You can delete all server data anytime through Parental Controls inside the app. You can also delete your account entirely, which removes all server-side data and signs you out. Leaving a family automatically removes your membership data. Local data can be cleared by deleting the app from your device.</p>
+            <p>If you need help, contact us at <a href="mailto:spiritualgrowthgarden@gmail.com" style="color:var(--sage);font-weight:600;">spiritualgrowthgarden@gmail.com</a>.</p>
         </div>
 
         <div class="section">
@@ -286,13 +309,13 @@
 
         <div class="summary-box">
             <h2>&#128077; In Summary</h2>
-            <p>We collect only essential learning data, with no tracking, no ads, and no voice uploads. You have full control of your data.</p>
+            <p>We collect only essential learning data, with no tracking, no ads, no third-party SDKs, and no voice uploads to our servers. You have full control of your data.</p>
         </div>
 
         <div class="contact-box">
             <h2>&#9993;&#65039; Contact Us</h2>
             <p>If you have questions about this privacy policy, please contact:<br>
-            <strong>Leo Song</strong><br>
+            <strong>Spiritual Growth Garden</strong><br>
             <a href="mailto:spiritualgrowthgarden@gmail.com">spiritualgrowthgarden@gmail.com</a></p>
         </div>
 
@@ -301,18 +324,20 @@
     <!-- Chinese -->
     <div id="lang-zh" class="lang-block">
 
-        <p class="last-updated">最后更新：2026年3月</p>
+        <p class="last-updated">最后更新：2026年3月24日</p>
 
         <div class="section">
             <h2><span class="icon">&#128274;</span> 隐私政策</h2>
-            <p>芥菜种中文（以下简称"本应用"）由 Leo Song 开发。本隐私政策描述了我们如何收集、使用和保护您的信息。我们致力于保护所有用户（包括儿童）的隐私。</p>
+            <p>芥菜种中文（以下简称"本应用"）由 Spiritual Growth Garden（属灵成长花园）开发。本隐私政策描述了我们如何收集、使用和保护您的信息。我们致力于保护所有用户（包括儿童）的隐私。</p>
         </div>
 
         <div class="section">
             <h2><span class="icon">&#128100;</span> 我们收集的信息</h2>
-            <p><strong>账户信息：</strong>当您通过 Apple 登录时，我们会收到一个唯一的用户 ID，以及您可选提供的电子邮箱（仅用于账户恢复）。除非您主动分享，否则我们不会获取您的姓名或其他个人信息。</p>
-            <p><strong>学习进度：</strong>课程完成情况、测验成绩、圣经高亮、笔记和打卡记录，用于追踪孩子的学习历程。</p>
-            <p><strong>偏好设置：</strong>语言偏好、字体大小、通知设置等应用设置。</p>
+            <p><strong>账户信息（可选）：</strong>当您通过 Apple 登录时，我们保存 Apple 提供的匿名用户标识符，用于关联您的学习数据和家庭成员身份。如果您选择分享，我们也可能获取您的显示名称和电子邮箱。我们不会获取您的 Apple ID 密码。</p>
+            <p><strong>学习进度：</strong>课程完成情况、测验成绩、圣经高亮、笔记、打卡记录和每日识字练习记录。</p>
+            <p><strong>孩子档案：</strong>家长为每个孩子设定的名字和头像表情。每个孩子的进度独立存储。</p>
+            <p><strong>家庭共享：</strong>如果您创建或加入家庭，您的显示名称和家庭成员身份将存储在服务器上，并对同一家庭的其他成员可见。</p>
+            <p><strong>偏好设置：</strong>语言偏好、通知设置等应用设置。</p>
         </div>
 
         <div class="section">
@@ -322,14 +347,32 @@
 
         <div class="section">
             <h2><span class="icon">&#9729;&#65039;</span> 后台同步</h2>
-            <p>开启后台模式时（默认开启），学习进度、圣经高亮和笔记会安全地同步到我们的服务器，以便在多设备间保持一致。所有数据通过加密的 HTTPS 传输，使用合并策略确保数据不会丢失。您随时可以在设置中关闭此功能。</p>
-            <p class="benefit">&#10003; 仅同步学习进度、高亮、笔记和打卡记录，不存储语音</p>
+            <p>开启后台模式时（默认开启），学习进度、圣经高亮、笔记和家庭共享数据会安全地同步到我们的服务器，以便在多设备间保持一致。所有数据通过加密的 HTTPS 传输，使用合并策略确保数据不会丢失。您随时可以在设置中关闭此功能。</p>
+            <p class="benefit">&#10003; 仅同步学习进度、高亮、笔记、打卡记录和家庭成员信息（包括显示名称），不存储语音</p>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">&#63743;</span> Apple 登录</h2>
+            <p>使用「通过 Apple 登录」时，我们保存 Apple 提供的匿名用户标识符，用于关联您的学习数据和家庭成员身份。加入家庭后，您的显示名称将对同一家庭的其他成员可见。我们不会获取您的 Apple ID 密码。Apple 登录完全可选——应用在「仅本设备」模式下无需登录即可正常使用。</p>
+        </div>
+
+        <div class="section">
+            <h2><span class="icon">&#127968;</span> 家庭共享</h2>
+            <p>可选的家庭共享功能允许多台设备在一个家庭中共享孩子的档案和学习进度。使用此功能：</p>
+            <ul>
+                <li>一位家长创建家庭并生成6位邀请码（60秒内有效）。</li>
+                <li>另一位家长输入邀请码申请加入；家庭创建者需要批准。</li>
+                <li>加入后，孩子的档案和学习进度在所有家庭设备间同步。</li>
+                <li>家庭创建者可以随时移除成员。被移除的成员会收到通知，并保留自己孩子的数据。</li>
+                <li>退出家庭将自动移除您的成员信息。</li>
+            </ul>
+            <p>所有家庭管理功能仅可通过「家长模式」访问（需通过两步验证）。</p>
         </div>
 
         <div class="section">
             <h2><span class="icon">&#127908;</span> 麦克风与语音识别</h2>
-            <p>跟读和背诵功能使用设备内置的语音识别（Apple Speech Framework）来评估发音。语音处理完全在设备本地完成。在极少数情况下，当设备端识别不可用时，可能会使用 Apple 的服务器端语音识别服务作为备选方案；此时音频会发送至 Apple 进行处理，受 Apple 隐私政策约束。</p>
-            <p class="benefit">&#10003; 语音数据尽可能留在您的设备上；备选方案仅使用 Apple 的服务</p>
+            <p>跟读和背诵功能使用 Apple Speech Framework 来评估发音。语音数据完全在设备本地处理，不会发送到我们的服务器。当设备不支持本地识别时，会通过 Apple 的语音识别服务进行处理（由 Apple 隐私政策保护）。</p>
+            <p class="benefit">&#10003; 语音数据不会发送到我们的服务器，仅在设备本地或通过 Apple 服务处理</p>
         </div>
 
         <div class="section">
@@ -339,25 +382,28 @@
 
         <div class="section">
             <h2><span class="icon">&#128065;&#8205;&#128488;</span> 无追踪，无广告</h2>
-            <p>我们不使用任何第三方追踪工具，不收集分析数据，不显示任何广告。这个应用是为孩子的学习而设计的，不是为了收集数据。</p>
+            <p>我们不使用任何第三方追踪工具，不收集分析数据，不显示任何广告。应用不包含任何第三方 SDK——仅使用 Apple 原生框架。这个应用是为孩子的学习而设计的，不是为了收集数据。</p>
         </div>
 
         <div class="section">
             <h2><span class="icon">&#128118;</span> 儿童隐私保护（COPPA 合规）</h2>
-            <p>芥菜种中文专为儿童使用而设计，我们高度重视儿童隐私：</p>
+            <p>芥菜种中文专为儿童使用而设计，旨在上架 App Store 儿童分类。我们高度重视儿童隐私：</p>
             <ul>
                 <li>我们不会跨应用或网站追踪儿童的活动。</li>
                 <li>我们不展示任何形式的广告。</li>
                 <li>我们不与第三方共享任何数据。</li>
+                <li>我们不使用任何第三方分析或广告 SDK。</li>
                 <li>我们不收集超出应用运行所需的信息。</li>
-                <li>语音录音尽可能在设备上处理。当设备端识别不可用时，会使用 Apple 的语音识别服务作为备选；语音数据不会发送至我们的服务器或 Apple 以外的任何第三方。</li>
+                <li>语音录音在设备上处理。语音数据不会发送至我们的服务器。</li>
+                <li>外部链接和账户管理仅可通过家长验证后访问。</li>
                 <li>家长可以随时通过「家长模式」查看和删除所有数据。</li>
             </ul>
         </div>
 
         <div class="section">
             <h2><span class="icon">&#128465;</span> 数据删除</h2>
-            <p>您可以随时在「家长模式」中删除服务器上保存的所有学习数据。本地数据可通过删除应用来清除。如需帮助，请联系 <a href="mailto:spiritualgrowthgarden@gmail.com" style="color:var(--sage);font-weight:600;">spiritualgrowthgarden@gmail.com</a>。</p>
+            <p>您可以随时在「家长模式」中删除服务器上保存的所有学习数据。您也可以完全删除账户，这将移除所有服务器端数据并登出。退出家庭将自动移除您的成员信息。本地数据可通过删除应用来清除。</p>
+            <p>如需帮助，请联系 <a href="mailto:spiritualgrowthgarden@gmail.com" style="color:var(--sage);font-weight:600;">spiritualgrowthgarden@gmail.com</a>。</p>
         </div>
 
         <div class="section">
@@ -367,13 +413,13 @@
 
         <div class="summary-box">
             <h2>&#128077; 简而言之</h2>
-            <p>我们只收集必要的学习数据，不追踪，不投广告，语音不上传。您对自己的数据有完全控制权。</p>
+            <p>我们只收集必要的学习数据，不追踪，不投广告，不使用第三方 SDK，语音不上传至我们的服务器。您对自己的数据有完全控制权。</p>
         </div>
 
         <div class="contact-box">
             <h2>&#9993;&#65039; 联系我们</h2>
             <p>如果您对本隐私政策有任何疑问，请联系：<br>
-            <strong>Leo Song</strong><br>
+            <strong>Spiritual Growth Garden（属灵成长花园）</strong><br>
             <a href="mailto:spiritualgrowthgarden@gmail.com">spiritualgrowthgarden@gmail.com</a></p>
         </div>
 
